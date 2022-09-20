@@ -4,18 +4,18 @@ image: 'https://www.notion.so/images/page-cover/rijksmuseum_rembrandt_1642.jpg'
 created: January 16, 2022 11:13 PM
 updated: February 21, 2022 3:03 PM
 tags:
-  - 'regExp'
-  - '正则'
-  - '断言'
+  - 'wsl'
+  - 'linux'
+  - 'Window Subsystem for Linux'
+  - 'zsh'
+  - 'oh-my-zsh'
+  -'tmux'
 --- 
-# 
 
-Created: January 16, 2022 11:13 PM
-Last Edited Time: January 16, 2022 11:13 PM
 
 ## WSL是什么？
 
-WSL是微软出品的 运行在Windows子系统。全称Windows Subsystem for Linux。
+WSL是微软出品的 运行在Windows子系统。全称```Windows Subsystem for Linux```
 
 到现在已经到了第二个版本
 
@@ -24,7 +24,7 @@ WSL是微软出品的 运行在Windows子系统。全称Windows Subsystem for Li
 
 在WSL中你将获得一套完整的Linux环境（继承自Window）和对Window程序的调用能力。
 
-[https://youtu.be/48k317kOxqg](https://youtu.be/48k317kOxqg)
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/48k317kOxqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 为什么不直接用虚拟机？
 
@@ -34,7 +34,7 @@ WSL是微软出品的 运行在Windows子系统。全称Windows Subsystem for Li
 
 - 基本的Linux 命令认知（快速入门linux可以参考另一篇文章）
 
-[linux服务器维护](https://www.notion.so/linux-015280fb41d34a8a99a2a95578b483c0)
+[linux服务器维护](/linux/)
 
 - 不愿意就此打住的脑子
 - 持续改进的心
@@ -68,7 +68,7 @@ WSL是微软出品的 运行在Windows子系统。全称Windows Subsystem for Li
 
 [Dev on Windows with WSL](https://dowww.spencerwoo.com/)
 
-安装世界上最酷的shell环境 oh-my-zsh
+安装世界上最酷的shell环境```oh-my-zsh```
 
 (如果不会科学上网可以找gitee上的镜像)
 
@@ -96,21 +96,21 @@ code .
 
 ![Untitled](/wsl/0.png)
 
-只在linux 中被支持的 npm 包 n
+只在```linux```中被支持的 npm 包 ```n```
 
 可以支持快速多个版本的NodeJs的安装和切换
 
 ![Untitled](/wsl/1.png)
 
-使用tmux 在一个终端中进行拆分和任务切换
+使用```tmux``` 在一个终端中进行拆分和任务切换
 
 ![Untitled](/wsl/2.png)
 
-能够根据格式读取文件并且进行语法高亮的batcat
+能够根据格式读取文件并且进行语法高亮的```batcat```
 
 ![Untitled](/wsl/3.png)
 
-能够帮你进行命令正确提示和历史命令输入建议的 zsh-syntax-highlighting 和 zsh-autosuggestions
+能够帮你进行命令正确提示和历史命令输入建议的 ```zsh-syntax-highlighting``` 和 ```zsh-autosuggestions```
 
 ![Untitled](/wsl/4.png)
 
@@ -120,9 +120,9 @@ code .
 
 正确命令为绿色并且如果输入的这部分是历史输入过的会进行提示
 
-这对于前端经常输入 yarn 或者yarn serve 非常省事情  你只要打个y 就能提示出来了
+这对于前端经常输入 yarn 或者```yarn serve``` 非常省事情  你只要打个y 就能提示出来了
 
-一个非常沙雕的工具 thefuck 会更具你上次输入错误的命令提示你正确的
+一个非常沙雕的工具 ``thefuck``` 会根具你上次输入错误的命令提示你正确的
 
 ![Untitled](/wsl/6.png)
 
