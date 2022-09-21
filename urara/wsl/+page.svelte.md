@@ -9,7 +9,7 @@ tags:
   - 'Window Subsystem for Linux'
   - 'zsh'
   - 'oh-my-zsh'
-  -'tmux'
+  - 'tmux'
 --- 
 
 
